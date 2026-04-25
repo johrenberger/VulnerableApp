@@ -159,6 +159,10 @@ dependencies {
     implementation group: 'io.github.sasanlabs', name: 'facade-schema', version: '1.0.1'
 
     implementation group: 'commons-fileupload', name: 'commons-fileupload', version: '1.5'
+
+    // https://mvnrepository.com/artifact/com.googlecode.owasp-java-encoder/owasp-java-encoder
+    implementation group: 'com.googlecode.owasp-java-encoder', name: 'owasp-java-encoder', version: '1.2.3'
+
     spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.13.0'
 }
 
